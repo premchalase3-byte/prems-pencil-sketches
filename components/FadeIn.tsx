@@ -11,19 +11,18 @@ export default function FadeIn({
     <motion.div
       initial={{
         opacity: 0,
-        y: 50,
+        filter: "blur(10px)",
       }}
       whileInView={{
         opacity: 1,
-        y: 0,
+        filter: "blur(0px)",
       }}
       viewport={{
         once: true,
-        amount: 0.2,
+        amount: 0.1,
       }}
       transition={{
         duration: 0.35,
-        ease: "easeOut",
       }}
     >
       {children}
