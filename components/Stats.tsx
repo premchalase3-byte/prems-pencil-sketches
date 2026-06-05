@@ -6,7 +6,7 @@ export default function Stats() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
           <div>
-            <h3 className="text-4xl font-bold">150+</h3>
+            <h3 className="text-4xl font-bold">100+</h3>
             <p className="mt-2 text-gray-600">Portraits Created</p>
           </div>
 

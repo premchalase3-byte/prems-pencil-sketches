@@ -22,7 +22,7 @@ export default function FadeIn({
         amount: 0.2,
       }}
       transition={{
-        duration: 0.8,
+        duration: 0.35,
         ease: "easeOut",
       }}
     >
