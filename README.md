@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+PREM'S Pencil Sketches
 
-## Getting Started
+A modern portfolio website for showcasing custom handmade pencil sketches and attracting clients across India.
 
-First, run the development server:
+Overview
 
-```bash
+PREM'S Pencil Sketches is a responsive website designed to display artwork, build trust with potential clients, and make it easy for visitors to order custom pencil portraits.
+
+The website highlights portfolio work, before-and-after transformations, pricing, testimonials, and artist information in a clean and premium design.
+
+Features
+
+- Responsive design for mobile and desktop
+- Portfolio gallery
+- Interactive Before & After comparison slider
+- Customer reviews section
+- Pricing section
+- FAQ section
+- WhatsApp integration for direct inquiries
+- SEO-friendly setup
+- Smooth animations using Framer Motion
+
+Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Compare Slider
+
+Project Structure
+
+app/
+components/
+public/
+
+Getting Started
+
+Clone the repository:
+
+git clone <your-github-repo-url>
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Live Demo
 
-## Learn More
+Live Website:
+https://prems-pencil-sketches.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Advanced SEO landing pages
+- Google Search Console integration
+- Blog section
+- Online order form
+- Portfolio filtering
+- Image lightbox enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Author
 
-## Deploy on Vercel
+Prem Chalase
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+PREM'S Pencil Sketches
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Custom Handmade Pencil Portraits
