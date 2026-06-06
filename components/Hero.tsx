@@ -19,14 +19,24 @@ export default function Hero() {
         delivered across India.
       </p>
 
-      <div className="flex gap-4 mt-10">
-        <button className="bg-[#C8A165] text-white px-8 py-4 rounded-full hover:scale-105 transition">
+      <div className="flex flex-col sm:flex-row gap-4 mt-10">
+        {/* WhatsApp CTA */}
+        <a
+          href="https://wa.me/917760973219"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#C8A165] text-white px-8 py-4 rounded-full hover:scale-105 transition duration-300"
+        >
           Order Your Sketch
-        </button>
+        </a>
 
-        <button className="border border-black px-8 py-4 rounded-full hover:bg-black hover:text-white transition">
+        {/* Scroll to Portfolio */}
+        <a
+          href="#portfolio"
+          className="border border-black px-8 py-4 rounded-full hover:bg-black hover:text-white transition duration-300"
+        >
           View Gallery
-        </button>
+        </a>
       </div>
     </section>
   );
