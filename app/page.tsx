@@ -1,3 +1,4 @@
+
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
@@ -10,12 +11,10 @@ import About from "../components/About";
 import FAQ from "../components/FAQ";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
-import Challenge from "../components/Challenge";
-import ChallengePopup from "../components/ChallengePopup";
+
 export default function Home() {
   return (
     <main>
-      <ChallengePopup />
       <Navbar />
       <Hero />
       <Stats />
@@ -25,7 +24,6 @@ export default function Home() {
       <Pricing />
       <Reviews />
       <About />
-      <Challenge />
       <FAQ />
       <CTA />
       <Footer />
