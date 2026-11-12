@@ -74,3 +74,7 @@ Prem Chalase
 PREM'S Pencil Sketches
 
 Custom Handmade Pencil Portraits
+
+## Artwork order tracking foundation
+
+See [README-ORDER-TRACKING.md](./README-ORDER-TRACKING.md) for MongoDB setup, environment variables, admin authentication, and the initial order/tracking API endpoints.
